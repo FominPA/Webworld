@@ -1,0 +1,17 @@
+.contacts__items { margin-top: 35px; }
+
+.contacts__contact {
+	display: flex;
+	align-items: center;
+	margin-top: 13px;
+}
+
+.contacts__icon {
+	width: 28px;
+	margin-right: 18px;
+	color: #71b6d5;
+	font-size: 20px;
+	text-align: center;
+}
+
+.contacts__description { color: white; }
