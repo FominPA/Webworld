@@ -1,10 +1,10 @@
-.subscribe__form {
+.footer__subscribe-form {
 	border-radius: 5px;
 	display: flex;
 	margin-top: 18px;
 }
 
-.subscribe__email-input {
+.footer__subscribe-email-input {
 	width: calc(100% - 56px);
 	height: 11px;
 	border: 0;
@@ -15,7 +15,7 @@
 	border-radius: 5px 0 0 5px;
 }
 
-.subscribe__submit {
+.footer__subscribe-submit {
 	height: 35px;
 	width: 40px;
 	display: flex;

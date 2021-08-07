@@ -1,0 +1,23 @@
+$def-blue: #71B6D5;
+
+.button {
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	border-radius: 3px;
+	padding: 10px 20px;
+	border: 2px solid $def-blue;
+}
+
+.button_blue {
+	font-size: 17px;
+	color: white;
+	background-color: $def-blue;
+}
+
+.button_white {
+	font-size: 13.5px;
+	color: $def-blue;
+	background-color: #fff;
+}

@@ -1,0 +1,48 @@
+@import url("../_basement/_basement.css");
+@import url("__contacts-column/__contacts-column.css");
+@import url("__subscribe-column/__subscribe-column.css");
+@import url("__twits-column/__twit.css");
+.footer {
+  background-color: #273a43; }
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.footer__column {
+  width: 230px;
+  margin: 65px auto; }
+
+.footer__column-title {
+  color: white;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 22px;
+  font-size: 20px; }
+
+.footer__column-content {
+  color: #c3c3c3; }
+
+@media (max-width: 1010px) {
+  .footer__inner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center; } }
+
+@media (max-width: 590px) {
+  .footer__inner {
+    display: block;
+    padding: 1px 10px; }
+  .footer__column {
+    margin: calc(65px / 2) auto; } }

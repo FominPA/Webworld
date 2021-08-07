@@ -1,0 +1,18 @@
+.button {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 10px 20px;
+  border: 2px solid #71B6D5; }
+
+.button_blue {
+  font-size: 17px;
+  color: white;
+  background-color: #71B6D5; }
+
+.button_white {
+  font-size: 13.5px;
+  color: #71B6D5;
+  background-color: #fff; }

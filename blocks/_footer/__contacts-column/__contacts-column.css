@@ -1,0 +1,21 @@
+.footer__contacts-items {
+  margin-top: 35px; }
+
+.footer__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 13px; }
+
+.footer__contact-icon {
+  width: 28px;
+  margin-right: 18px;
+  color: #71b6d5;
+  font-size: 20px;
+  text-align: center; }
+
+.footer__contact-description {
+  color: white; }

@@ -1,0 +1,26 @@
+@import url("../_logo/_logo.css");
+.roof {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 94px;
+  border-bottom: 1px solid #595959; }
+
+.roof__menu-item {
+  margin-left: 40px;
+  color: white; }
+
+@media (max-width: 480px) {
+  .roof {
+    display: block;
+    text-align: center; }
+  .roof__menu {
+    display: block; }
+  .roof__menu-item {
+    margin: 10px 20px; } }
