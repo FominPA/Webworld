@@ -1,5 +1,5 @@
 export default {
-	props: ['title', 'iconClass' 'faIconClass', 'description'],
+	props: ['title', 'iconClass', 'faIconClass', 'description'],
 
 	template: 
 	`<div class="section-title">

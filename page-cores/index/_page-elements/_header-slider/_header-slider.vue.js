@@ -2,7 +2,7 @@ import button from '../../../../blocks/_button/_button.vue.js';
 
 export default {
 	components: {
-		button,
+		'u-button': button,
 	},
 
 	template: 
@@ -17,7 +17,7 @@ export default {
 			</div>
 			<div class="header-slider__arrow header-slider__arrow_right"><i class="fas fa-chevron-right"></i></div>
 		</div>
-		<button :button-href='#' class="button_blue"></button>
+		<u-button buttonHref='#' class="button_blue" title="show more"></u-button>
 		<div class="header-slider__slides-selectors">
 			<div class="header-slider__selector"><div class="header-slider__dot"></div></div>
 			<div class="header-slider__selector"><div class="header-slider__dot"></div></div>

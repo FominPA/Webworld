@@ -10,6 +10,7 @@ export default {
 		descriptionColumn,
 		contacts,
 		subscribe,
+		twits,
 	},
 
 	template:

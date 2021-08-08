@@ -1,6 +1,6 @@
 export default {
-	props: ['button-href', 'title'],
+	props: ['buttonHref', 'title'],
 
 	template: 
-	`<a :href='button-href' class="button">{{ title }}</a>`
+	`<a :href='buttonHref' class="button">{{ title }}</a>`
 }

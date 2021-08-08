@@ -14,7 +14,7 @@ export default {
 					<p class="footer__contact-description">info@youwebsite.com</p>
 				</div>
 				<div class="footer__contact footer__contact_phone">
-					<i class="icon fas fa-phone-alt"></i>
+					<i class="footer__contact-icon fas fa-phone-alt"></i>
 					<p class="footer__contact-description">890-09880-45590</p>
 				</div>
 			</div>
