@@ -10,6 +10,7 @@ export default {
 	template: 
 	`<div class="our-features wrapper">
 			<section-title
+				iconClass = "section-title__icon_circle"
 				class = "our-features__title"
 				title = "Our <b>features</b>"
 				faIconClass = "fas fa-check"
