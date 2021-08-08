@@ -39,5 +39,8 @@
   background-color: #71B6D5;
   color: white; }
 
-.section-title__title {
+.section-title__text {
   margin: 20px auto 40px; }
+
+.section-title__description {
+  margin: 5px auto 0; }
