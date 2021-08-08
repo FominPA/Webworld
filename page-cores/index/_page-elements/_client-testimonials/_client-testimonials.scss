@@ -1,0 +1,31 @@
+@import url('../../../../blocks/_wrapper/_wrapper.css');
+@import url('../../../../blocks/_section-title/_section-title.css');
+
+.client-testimonials { padding: 65px 0; }
+
+.client-testimonials__slide {
+	text-align: center;
+	margin: 30px auto 20px;
+}
+
+.client-testimonials__text { padding: 0 30px; }
+.client-testimonials__author { padding: 0 30px; }
+
+.client-testimonials__hr { 
+	margin: 20px auto;
+	max-width: 100%;
+}
+
+.client-testimonials__slides-selectors {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.client-testimonials__selector {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #E1E1E1;
+	margin: 0 5px;
+}
