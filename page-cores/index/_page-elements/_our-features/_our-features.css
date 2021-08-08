@@ -1,0 +1,30 @@
+@import url("../../../../blocks/_wrapper/_wrapper.css");
+@import url("../../../../blocks/_section-title/_section-title.css");
+@import url("../../../../blocks/_button/_button.css");
+.our-features {
+  padding: 50px 0;
+  border-bottom: 1px solid #E5E5E5; }
+
+.our-features__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.our-features__content-image {
+  margin-right: 55px; }
+
+.our-features__content-description {
+  margin: 20px 0; }
+
+.button_our-features {
+  margin-right: auto; }
+
+@media (max-width: 690px) {
+  .our-features__content {
+    display: block;
+    text-align: center; }
+  .our-features__content-image {
+    margin: 0 auto 20px; } }

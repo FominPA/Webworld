@@ -1,0 +1,21 @@
+@import url('../../../../blocks/_wrapper/_wrapper.css');
+@import url('../../../../blocks/_button/_button.css');
+
+.flat-camera {
+	padding: 56px 0;
+	display: flex;
+	align-items: center;
+}
+
+.flat-camera__image { margin-left: 55px; }
+.flat-camera__description { margin: 20px 0; }
+.button_flat-camera { margin-right: auto; }
+
+@media (max-width: 690px) {
+	.flat-camera {
+		display: block;
+		text-align: center;
+	}
+
+	.flat-camera__image { margin: 20px auto 0; }
+}
