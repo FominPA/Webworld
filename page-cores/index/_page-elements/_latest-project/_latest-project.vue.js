@@ -8,7 +8,7 @@ export default {
 	},
 
 	template:
-	`<div id="latest-project wrapper">
+	`<div class="latest-project wrapper">
 
 		<section-title
 			class = "latest-project__title"
