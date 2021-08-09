@@ -3,7 +3,7 @@ import sectionTitle from '../../../../blocks/_section-title/_section-title.vue.j
 
 export default {
 	components: {
-		button,
+		'u-button': button,
 		'section-title': sectionTitle,
 	},
 
@@ -21,7 +21,7 @@ export default {
 				<div class="our-features__content-text">
 					<h3 class="our-features__content-title">Lorem Ipsum is simply !!</h3>
 					<p class="our-features__content-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators.</p>
-					<button buttonHref="#" class="button_white button_our-features" title="Read more"></button>
+					<u-button buttonHref="#" class="button_white button_our-features" title="Read more"></u-button>
 				</div>
 			</div>
 	</section>`
