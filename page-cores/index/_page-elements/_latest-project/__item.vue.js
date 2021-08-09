@@ -1,9 +1,13 @@
 export default {
 	props: ['imageUrl', 'title', 'description'],
 
+	computed: {
+		bgImageStyle() { return ('background-image: url(' + this.imageUrl + ');') }
+	},
+
 	template:
 	`<div class="latest-project__item">
-		<div class="latest-project__item-photo" :style="'background-image: url(' + imageUrl + ');'">
+		<div class="latest-project__item-photo" :style="bgImageStyle">
 			<a href="#" class="latest-project__item-scale"><i class="fas fa-search"></i></a>
 		</div>
 		<div class="latest-project__item-text">
