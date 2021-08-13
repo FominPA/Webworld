@@ -20,7 +20,7 @@ export default {
 			<div class="client-testimonials__slider-content">
 				<div class="client-testimonials__slide">
 					<p class="client-testimonials__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book !!</p>
-					<img src="images/index/testimonials hr.png" alt="testimonials hr" class="client-testimonials__slide-hr">
+					<img src="page-cores/index/_page-elements/_client-testimonials/images/testimonials hr.png" alt="testimonials hr" class="client-testimonials__slide-hr">
 					<p class="client-testimonials__author"><b>Robart Markel,</b> Company Name</p>
 				</div>
 			</div>
