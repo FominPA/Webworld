@@ -1,0 +1,13 @@
+@import url("../../blocks/_roof/_roof.css");
+@import url("../../blocks/_footer/_footer.css");
+@import url("../../normalize.css");
+@import url("_page-elements/_works/_works.css");
+@import url("_page-elements/_left-bar/_left-bar.css");
+.header {
+  background-image: url("../../images/HeaderBackground.png");
+  background-size: cover;
+  min-height: 360px;
+  max-height: 560px; }
+
+main {
+  padding: 30px 0; }

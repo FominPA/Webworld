@@ -8,7 +8,7 @@ import flatCamera from './_page-elements/_flat-camera/_flat-camera.vue.js';
 import latestProject from './_page-elements/_latest-project/_latest-project.vue.js';
 import clientTestimonials from './_page-elements/_client-testimonials/_client-testimonials.vue.js';
 
-let index = Vue.createApp({
+const index = Vue.createApp({
 	components: {
 		'header-slider': headerSlider,
 		roof,

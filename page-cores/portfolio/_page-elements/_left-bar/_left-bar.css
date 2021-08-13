@@ -1,0 +1,47 @@
+@import url("_block-title.css");
+.left-bar {
+  display: inline-block;
+  vertical-align: top;
+  width: 231px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  padding: 18px 22px;
+  color: #7c7770;
+  font-size: 13px; }
+
+.left-bar__search-input {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 13px 11px;
+  width: calc(100% - 24px);
+  font-size: 13.5px;
+  margin: 10px 0; }
+
+.left-bar__tweet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #7c7770; }
+
+.left-bar__tweet-icon {
+  margin-right: 5px;
+  color: #71B6D5; }
+
+.left-bar__tweet-time-ago {
+  text-decoration: underline;
+  margin: 10px 0 30px; }
+
+.left-bar__tags-content {
+  margin: 25px 0; }
+
+.left-bar__tag {
+  margin: 3px 0;
+  display: inline-block;
+  padding: 2px 5px;
+  border: 1px solid #E1E1E1;
+  border-radius: 5px;
+  color: #7c7770; }
+
+@media (max-width: 1040px) {
+  .left-bar {
+    display: none; } }
