@@ -1,3 +1,4 @@
+@import url('../../blocks/_header/_header.css');
 @import url('../../blocks/_roof/_roof.css');
 @import url('../../blocks/_footer/_footer.css');
 @import url('../../normalize.css');
@@ -8,11 +9,4 @@ $def-blue: #71B6D5;
 @import url('_page-elements/_map/_map.css');
 @import url('_page-elements/_info/_info.css');
 @import url('_page-elements/_form/_form.css');
-
-.header {
-	background-image: url('../../images/HeaderBackground.png');
-	background-size: cover;
-	min-height: 360px;
-	max-height: 560px;
-}
 

@@ -4,11 +4,7 @@
 @import url("_page-elements/_flat-camera/_flat-camera.css");
 @import url("_page-elements/_latest-project/_latest-project.css");
 @import url("_page-elements/_client-testimonials/_client-testimonials.css");
+@import url("../../blocks/_header/_header.css");
 @import url("../../blocks/_roof/_roof.css");
 @import url("../../blocks/_footer/_footer.css");
 @import url("../../normalize.css");
-.header {
-  background-image: url("../../images/HeaderBackground.png");
-  background-size: cover;
-  min-height: 360px;
-  max-height: 560px; }
