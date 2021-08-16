@@ -41,8 +41,9 @@ $def-blue: #71B6D5;
 }
 
 .contact-form__submit {
-	width: calc(100% - 44px);
+	width: 100%;
 	text-align: center;
+	cursor: pointer;
 }
 
 @media (max-width: 500px) {

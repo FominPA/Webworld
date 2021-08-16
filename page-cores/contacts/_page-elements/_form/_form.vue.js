@@ -13,11 +13,11 @@ export default {
 			faIconClass = 'fas fa-envelope'
 			description = ''
 		></section-title>
-		<form action="" class="contact-form__form">
+		<form action="#" class="contact-form__form" method="POST">
 			<input type="text" name="Name" id="Name" placeholder="Name" class="contact-form__name">
 			<input type="email" name="Email" id="Email" placeholder="Email" class="contact-form__email">
 			<textarea name="message" id="Message" cols="30" rows="10" placeholder="Your message" class="contact-form__message"></textarea>
-			<div class="button button_blue contact-form__submit">SEND</div>
+			<input value="send" type="submit" class="button button_blue contact-form__submit">
 		</form>
 	</div>`
 }
