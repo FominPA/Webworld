@@ -17,7 +17,7 @@ export default {
 				description = ""
 			></section-title>
 			<div class="our-features__content">
-				<img src="page-cores/index/_page-elements/_our-features/images/devices.png" alt="devices" class="our-features__content-image">
+				<img src="page-cores/home/_page-elements/_our-features/images/devices.png" alt="devices" class="our-features__content-image">
 				<div class="our-features__content-text">
 					<h3 class="our-features__content-title">Lorem Ipsum is simply !!</h3>
 					<p class="our-features__content-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators.</p>

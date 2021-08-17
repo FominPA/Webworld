@@ -1,39 +1,35 @@
-import headerSlider from './_page-elements/_header-slider/_header-slider.vue.js';
-import roof from '../../blocks/_roof/_roof.vue.js';
+import Home from '../Home/Home.vue.js';
+import Portfolio from '../portfolio/portfolio.vue.js';
+import Contacts from '../contacts/contacts.vue.js';
 import footer from '../../blocks/_footer/_footer.vue.js';
 
-import aboutUs from './_page-elements/_about-us/_about-us.vue.js';
-import ourFeatures from './_page-elements/_our-features/_our-features.vue.js';
-import flatCamera from './_page-elements/_flat-camera/_flat-camera.vue.js';
-import latestProject from './_page-elements/_latest-project/_latest-project.vue.js';
-import clientTestimonials from './_page-elements/_client-testimonials/_client-testimonials.vue.js';
+const store = Vuex.createStore({
+	state() { return {
+		currentTab: 'Home',
+	}},
 
-export default {
-	components: {
-		'header-slider': headerSlider,
-		roof,
-		'about-us': aboutUs,
-		'our-features': ourFeatures,
-		'flat-camera': flatCamera,
-		'latest-project': latestProject,
-		'client-testimonials': clientTestimonials,
-		'index-footer': footer,
+	mutations: {
+		changePage(store, newPage) {
+			this.state.currentTab = newPage;
+		}
+	}
+});
+
+const app = Vue.createApp({
+	data() { return {
+		store,
+	}},
+
+	computed: {
+		currentTab() { return this.$store.state.currentTab }
 	},
 
-	template:
-	`<link rel="stylesheet" href="page-cores/index/index.css">
-	<header class="header">
-		<div class="wrapper">
-			<roof></roof>
-			<header-slider></header-slider>
-		</div>
-	</header>
-	<main>
-		<about-us></about-us>
-		<our-features></our-features>
-		<flat-camera></flat-camera>
-		<latest-project></latest-project>
-		<client-testimonials></client-testimonials>
-	</main>
-	<index-footer></index-footer>`
-}
+	components: {
+		Home,
+		Portfolio,
+		Contacts,
+		'index-footer': footer,
+	}
+})
+.use(store)
+.mount('body')

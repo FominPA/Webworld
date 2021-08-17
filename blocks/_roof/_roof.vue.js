@@ -13,7 +13,7 @@ export default {
 	`<div class="roof wrapper">
 		<logo class='logo_roof'></logo>
 		<nav class="roof__menu">
-			<a  href=""
+			<a  
 				v-for="tab in tabs"
 				class="roof__menu-item"
 				@click='this.$store.commit("changePage", tab)'

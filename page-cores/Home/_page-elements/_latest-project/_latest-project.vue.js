@@ -20,25 +20,25 @@ export default {
 
 		<div class="latest-project__content">
 			<item
-				imageUrl = "'page-cores/index/_page-elements/_latest-project/images/Lorem Ipsum.png'"
+				imageUrl = "'page-cores/home/_page-elements/_latest-project/images/Lorem Ipsum.png'"
 				title = "Lorem Ipsum"
 				description = "Photography"
 			></item>
 			
 			<item
-				imageUrl = "'page-cores/index/_page-elements/_latest-project/images/Bonorum et Malorum.png'"
+				imageUrl = "'page-cores/home/_page-elements/_latest-project/images/Bonorum et Malorum.png'"
 				title = "Bonorum et Malorum"
 				description = "Print Designing"
 			></item>
 			
 			<item
-				imageUrl = "'page-cores/index/_page-elements/_latest-project/images/Injected humour.png'"
+				imageUrl = "'page-cores/home/_page-elements/_latest-project/images/Injected humour.png'"
 				title = "Injected humour"
 				description = "E-marketing"
 			></item>
 			
 			<item
-				imageUrl = "page-cores/index/_page-elements/_latest-project/images/Embarrassing.png"
+				imageUrl = "page-cores/home/_page-elements/_latest-project/images/Embarrassing.png"
 				title = "Embarrassing"
 				description = "Best Marketplace"
 			></item>

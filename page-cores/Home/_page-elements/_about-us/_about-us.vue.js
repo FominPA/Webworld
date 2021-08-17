@@ -11,21 +11,21 @@ export default {
 		<div class="about-us__content">
 
 			<item
-				imageUrl = 'page-cores/index/_page-elements/_about-us/images/swing.png'
+				imageUrl = 'page-cores/home/_page-elements/_about-us/images/swing.png'
 				faIconClass = 'fas fa-camera'
 				title = 'What We Are'
 				description = 'Lorem Ipsum is simply dummy text the printing and typesetting.'
 			></item>
 
 			<item
-				imageUrl = 'page-cores/index/_page-elements/_about-us/images/bycicle.png'
+				imageUrl = 'page-cores/home/_page-elements/_about-us/images/bycicle.png'
 				faIconClass = 'fas fa-edit'
 				title = 'Start Our Project'
 				description = 'Lorem Ipsum is simply dummy text the printing and typesetting.'
 			></item>
 
 			<item
-				imageUrl = 'page-cores/index/_page-elements/_about-us/images/grass.png'
+				imageUrl = 'page-cores/home/_page-elements/_about-us/images/grass.png'
 				faIconClass = 'fas fa-shopping-cart'
 				title = 'Our Team'
 				description = 'Lorem Ipsum is simply dummy text the printing and typesetting.'

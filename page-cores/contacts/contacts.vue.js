@@ -1,5 +1,4 @@
 import roof from '../../blocks/_roof/_roof.vue.js';
-import footer from '../../blocks/_footer/_footer.vue.js';
 
 import headerContent from './_page-elements/_header-content/_header-content.vue.js';
 import map from './_page-elements/_map/_map.vue.js';
@@ -13,7 +12,6 @@ export default {
 		'contact-map': map,
 		info,
 		'contact-form': form,
-		'index-footer': footer,
 	},
 
 	template:
@@ -26,6 +24,5 @@ export default {
 		<contact-map></contact-map>
 		<info></info>
 		<contact-form></contact-form>
-	</main>
-	<index-footer></index-footer>`
+	</main>`
 }
