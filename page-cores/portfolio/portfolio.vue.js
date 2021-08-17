@@ -5,11 +5,22 @@ import footer from '../../blocks/_footer/_footer.vue.js';
 import works from './_page-elements/_works/_works.vue.js';
 import leftBar from './_page-elements/_left-bar/_left-bar.vue.js';
 
-const portfolio = Vue.createApp({
+export default {
 	components: {
 		roof,
 		'index-footer': footer,
 		works,
 		'left-bar': leftBar,
-	}
-}).mount('body');
+	},
+
+	template:
+	`<link rel="stylesheet" href="page-cores/portfolio/portfolio.css">
+	<header class="header">
+		<roof></roof>
+	</header>
+	<main class='wrapper'>
+		<left-bar></left-bar>
+		<works></works>
+	</main>
+	<index-footer></index-footer>`
+}

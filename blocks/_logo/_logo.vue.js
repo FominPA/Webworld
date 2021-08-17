@@ -1,4 +1,4 @@
 export default {
 	template: 
-	`<a href="index.html" class="logo">Webworld</a>`
+	`<a href="" class="logo" @click='this.$store.commit("changePage", "Home")'>Webworld</a>`
 }

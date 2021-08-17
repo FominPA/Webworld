@@ -3,25 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Webworld Home Page</title>
+	<title>Webworld</title>
 	<script src="https://unpkg.com/vue@next"></script>
+	<script src="https://unpkg.com/vuex@4"></script>
 </head>
 <body>
-	<link rel="stylesheet" href="page-cores/index/index.css">
-	<header class="header">
-		<div class="wrapper">
-			<roof></roof>
-			<header-slider></header-slider>
-		</div>
-	</header>
-	<main>
-		<about-us></about-us>
-		<our-features></our-features>
-		<flat-camera></flat-camera>
-		<latest-project></latest-project>
-		<client-testimonials></client-testimonials>
-	</main>
-	<index-footer></index-footer>
+	<component :is='currentTab'></component>
 </body>
-<script src="page-cores/index/index.vue.js" type="module"></script>
+<script src="Webworld.vue.js" type="module"></script>
 </html>

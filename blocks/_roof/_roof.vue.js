@@ -2,8 +2,7 @@ import logo from '../_logo/_logo.vue.js';
 
 export default {
 	data() { return {
-		currentTab: 'Home',
-		tabs: ['Index', 'Portfolio', 'Contact'],
+		tabs: ['Home', 'Portfolio', 'Contacts'],
 	}},
 
 	components: {
@@ -13,12 +12,12 @@ export default {
 	template:
 	`<div class="roof wrapper">
 		<logo class='logo_roof'></logo>
-		<div class="roof__menu">
-			<a :href="tab + '.html'"
+		<nav class="roof__menu">
+			<a  href=""
 				v-for="tab in tabs"
 				class="roof__menu-item"
-				@click='currentTab = tab'
+				@click='this.$store.commit("changePage", tab)'
 			>{{ tab }}</a>
-		</div>
+		</nav>
 	</div>`
 }

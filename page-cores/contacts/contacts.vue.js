@@ -6,7 +6,7 @@ import map from './_page-elements/_map/_map.vue.js';
 import info from './_page-elements/_info/_info.vue.js';
 import form from './_page-elements/_form/_form.vue.js';
 
-const contact = Vue.createApp({
+export default {
 	components: {
 		roof,
 		'header-content': headerContent,
@@ -14,5 +14,18 @@ const contact = Vue.createApp({
 		info,
 		'contact-form': form,
 		'index-footer': footer,
-	}
-}).mount("body");
+	},
+
+	template:
+	`<link rel="stylesheet" href="page-cores/contacts/contacts.css">
+	<header class="header">
+		<roof></roof>
+		<header-content></header-content>
+	</header>
+	<main>
+		<contact-map></contact-map>
+		<info></info>
+		<contact-form></contact-form>
+	</main>
+	<index-footer></index-footer>`
+}
